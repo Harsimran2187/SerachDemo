@@ -1,7 +1,7 @@
 # Search minimum positive number API
 
 ## Below Five ways have been used for this usecase :
-
+```
 1. Using java 17 Stream API - Its good choice while working with large data as it allows us to process data on-the-fly and no need to load entire data.
 Time complexity is O(n) for filtering streams
 Space complexity is O(1) as streams are processed lazily and only one element is kept in memory regardless of array size.
@@ -20,6 +20,7 @@ Space complexity is O(n) as amount of memory used in this method is constant.
 5. Using min-heap : Adding all positive values to min-heap, where root element of heap will contain min int.
 Time complexity O(n log(n))
 Space complexity O(n)
+```
 
 ## Build and run command:
 ```
