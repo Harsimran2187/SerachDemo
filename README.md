@@ -1,6 +1,6 @@
 # Search minimum positive number API
 
-### #0d117 Below Five ways have been used for this usecase :
+#0d117 Below Five ways have been used for this usecase :
 ```
 1. Using java 17 Stream API - Its good choice while working with large data as it allows us to process data on-the-fly and no need to load entire data.
 Time complexity is O(n) for filtering streams
